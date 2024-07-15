@@ -1,0 +1,153 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    /* Tổng kích thước của phần tử không thay đổi */
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 22.5px;
+}
+
+.header-web{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    display: flex;
+    height: 54.5px;
+
+    /* trên/dưới = 8px  trái/phải = 16px */
+    padding: 8px 16px;
+    /* trên phải dưới trái */
+    /* padding: 8px 16px 8px 16px; */
+
+    background-color: white;
+    align-items: center;
+    color: black;
+
+}
+
+#cartering{
+    height: 38.5px;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+#cartering:hover{
+    background-color: rgb(95, 89, 89);
+}
+
+#bar-menu{
+    position: absolute;
+    right: 16px;
+    height: 38.5px;
+    display: flex;
+    align-items: center;
+}
+
+#bar-menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+#bar-menu ul li{
+    float: left;
+}
+
+#bar-menu ul li a{
+    display: block;
+    height: 38.5px;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+#bar-menu ul li a:hover{
+    background-color: rgb(95, 89, 89);
+}
+
+#banner-web{
+    position: relative;
+}
+
+#image-banner{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#banner-text-div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 273.938px;
+    height: 98px;
+    padding: 12px 24px;
+}
+
+#banner-text{
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    display: block;
+    height: 54px;
+    width: 225.938px;
+    margin: 10px 0px;
+    padding: 10px 0px ;
+}
+
+
+#about-catering{
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    background-color: white;
+    margin: auto;
+    padding: 64px 0px;
+}
+
+#about-catering #about-img{
+    display: block;
+    width: 50%;
+    background-color: white;
+    padding: 12px 24px;
+}
+
+#about-catering #about-img #hamburger-img{
+    display: block;
+    width: 100%;
+}
+
+#about-catering #about-text{
+    display: block;
+    padding: 12px 24px;
+    width: 50%;
+    text-align: center;
+}
+
+
+#about-catering #about-text h1{
+    font-size: 36px;
+    margin: 10px 0px;
+}
+
+#about-catering #about-text h5{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+
+#about-catering #about-text p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+
+
+
