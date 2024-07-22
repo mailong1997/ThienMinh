@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        div {
+            width: 200px;
+            height: 100px;
+            overflow: scroll;
+        }
+
+        /* chiều rộng */
+        div::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        div::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Hide scrollbars</h2>
+    <div>
+        <p>This example will hide the scrollbars (and the functionality - it is not possible to scroll inside the page).
+        </p>
+        <p>Try to remove <strong>overflow: hidden;</strong> to see the effect.</p>
+    </div>
+</body>
+
+</html>
